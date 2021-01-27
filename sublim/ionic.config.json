@@ -1,0 +1,7 @@
+{
+  "name": "sublim",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
