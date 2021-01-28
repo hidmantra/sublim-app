@@ -12,6 +12,12 @@
       <ion-title size="large">Information</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-segment value="instruct" (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="instruct">
+      <ion-label>Instructions</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="subliminal">
+      <ion-label>Subliminal Messages</ion-label>
+    </ion-segment-button>
+  </ion-segment>
 </ion-content>

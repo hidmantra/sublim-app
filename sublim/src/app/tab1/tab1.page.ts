@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
-
+  segmentChanged(ev: any) {
+    console.log('Segment changed', ev);
+  }
 }
